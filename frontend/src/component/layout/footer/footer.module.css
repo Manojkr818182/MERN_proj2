@@ -1,0 +1,25 @@
+.container {
+    margin: 0px;
+    height: 40px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 35px;
+    align-items: center;
+}
+
+.icon {
+    margin-right: 25px;
+    cursor: pointer;
+    color: #000;
+    opacity: .7;
+    border-radius: 50px;
+    background-color: white;
+    width: 44px;
+    height: 44px;
+    padding: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .15), 0 0 1px rgba(0, 0, 0, .2);
+}
+
+.icon:hover {
+    opacity: 1;
+}

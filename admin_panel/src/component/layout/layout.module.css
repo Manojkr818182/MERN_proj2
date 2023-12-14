@@ -1,0 +1,21 @@
+.container {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(237, 237, 250);
+}
+
+.header {
+    height: 70px;
+}
+
+.bottom {
+    display: flex;
+    height: 89.2vh;
+}
+.sidebar {
+    width: 15%;
+    background-color: rgb(203, 203, 216);
+}
+.content {
+    width: 85%;
+}

@@ -1,0 +1,157 @@
+.container {
+    background-color: rgb(237, 237, 250);
+    padding: 1% 7%;
+}
+
+.first {
+    margin-top: 15px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.first span {
+    font-size: 20px;
+    color: #183e6a;
+    font-weight: 700;
+}
+
+.second {
+    width: 100%;
+    padding: 15px;
+    margin-top: 15px;
+    background-color: white;
+}
+
+.second label {
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: #183e6a;
+    font-weight: 700;
+}
+
+.div_1 {
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.div_1 input {
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0;
+    border-radius: 1px;
+    border: 1ps solid grey;
+
+}
+
+.third{
+    margin-top: 25px;
+    height: 250px;
+    margin-bottom: 25px;
+}
+
+.third_left{
+    width: 100%;
+    height: 250px;
+    padding: 20px;
+    background-color: white;
+}
+.third_left label {
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: #183e6a;
+    font-weight: 700;
+}
+.third_right{
+    padding: 20px;
+    width: 100%;
+    height: 250px;
+    background-color: white;
+}
+
+.third_first label {
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: #183e6a;
+    font-weight: 700;
+}
+.third_second label {
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: #183e6a;
+    font-weight: 700;
+}
+.payments{
+    padding: 20px;
+    width: 100%;
+    height: 135px;
+    background-color: white;
+}
+
+.payments_lebel{
+    margin-bottom: 18px;
+}
+.payments_lebel span{
+    font-size: 18px;
+    color: #183e6a;
+    font-weight: 700;
+}
+.payments_radio{
+    padding-left: 15px;
+    display:flex;
+    height: 50px;
+    align-items: center;
+    border: 2px solid grey;
+    background-color: white;
+    border-radius: 5px;
+}
+.payments_radio label{
+    margin-left: 10px;
+    color: #042d5c;
+    font-size: 14px;
+    font-weight: 500;
+}
+.btn{
+    margin-top: 25px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cancel_btn {
+    width: 90px;
+    border: 1px solid#048888;
+    color: #048888;
+    padding: 12px 15px;
+    margin-right: 15px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.cancel_btn:hover {
+    background-color: #048888;
+    color: white;
+}
+
+.submit_btn {
+    width: 90px;
+    border: 1px solid#042d5c;
+    color: #042d5c;
+    padding: 12px 15px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.submit_btn:hover {
+    background-color: #042d5c;
+    color: white;
+}

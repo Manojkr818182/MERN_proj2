@@ -1,0 +1,19 @@
+.container {
+    padding: 2% 6%;
+    background-color: rgb(237, 237, 250);
+}
+
+.title {
+    margin: 0;
+    padding: 0;
+}
+
+.title span {
+    font-size: 18px;
+    color: #183e6a;
+    font-weight: 700;
+}
+
+.main {
+    margin-top: 30px;
+}

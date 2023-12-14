@@ -1,0 +1,93 @@
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main {
+    padding: 25px;
+    width: 30%;
+    height: 500px;
+    background: rgb(99, 187, 228);
+    border-radius: 8px;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+.logo img {
+   width: 150px;
+   border-radius: 50%;
+}
+.title{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.title span{
+    font-size: 25px;
+    font-weight: 700;
+    color:black;
+}
+.form {
+    padding: 25px;
+}
+.input_div {
+    margin-bottom: 8px;
+}
+
+.input_div input {
+    padding: 1px 8px;
+    width: 100%;
+    height: 40px;
+}
+
+.reset {
+    margin: 5px 1px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.reset span {
+    font-size: 15px;
+    color:rgb(24, 24, 187);
+    font-weight: 600;
+    cursor: pointer;
+}
+.reset span:hover {
+    font-size: 15.1px;
+}
+.invalidCred {
+    display: flex;
+    justify-content: center;
+}
+.invalidCred span{
+    color: red;
+}
+.submit_btn {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.submit_btn button {
+    width: 50%;
+    border: 1px solid#042d5c;
+    color: #042d5c;
+    padding: 10px 15px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.submit_btn button:hover {
+    background-color: #042d5c;
+    color: white;
+    font-size: 14.1px;
+
+}

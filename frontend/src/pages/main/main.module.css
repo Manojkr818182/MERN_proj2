@@ -1,0 +1,259 @@
+.container {
+    margin: 0;
+    padding: 0;
+
+}
+
+.header {
+    padding: 5px 7%;
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+}
+
+.logo span {
+    font-size: 22px;
+    color: #416086;
+    font-weight: 800;
+}
+
+.nav_menu ul {
+    display: flex;
+}
+
+.nav_menu ul a {
+    text-decoration: none;
+    color: #042c5c;
+}
+
+.nav_menu ul li {
+    list-style: none;
+    margin-left: 25px;
+    font-size: 15px;
+    color: black;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.buttons button {
+    width: 90px;
+    border: 1px solid#042d5c;
+    color: #042d5c;
+    padding: 12px 15px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background-color: #042d5c;
+    color: white;
+}
+
+.content1 {
+    padding: 5px 7%;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cnt1 {
+    color: #042d5c;
+    font-size: 45px;
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+}
+
+.cnt2 {
+    margin: 0;
+    padding: 0;
+    font-size: 43px;
+    font-weight: 600;
+}
+
+.cnt3 {
+    margin: 0;
+    padding: 0;
+    font-size: 45px;
+    font-weight: 800;
+    color: #0ca09d;
+}
+
+.content1_btn {
+    width: 140px;
+    border: 1px solid#042d5c;
+    color: #042d5c;
+    padding: 8px 15px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.content1_btn:hover {
+    background-color: #042d5c;
+    color: white;
+}
+
+.content2 {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f3f3fa;
+}
+
+.content2_img img {
+    width: 650px;
+}
+
+.content2_content {
+    padding-left: 60px;
+    padding-right: 35px;
+}
+
+.cnt21 {
+    color: #042d5c;
+    font-size: 42px;
+    font-weight: 800;
+}
+
+.cnt22 {
+    font-size: 22px;
+    font-weight: 800;
+    color: #0ca09d;
+}
+
+.cnt23 {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.content3 {
+    margin-top: 50px;
+    padding-top: 20px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content3_heading {
+    width: 30%;
+    padding-left: 50px;
+
+}
+
+.content3_heading span {
+    font-size: 43px;
+    font-weight: 900;
+    color: #042d5c;
+}
+
+.accordion {
+    width: 80%;
+}
+
+.newLetter {
+    padding: 5px 100px;
+    display: flex;
+    margin-top: 50px;
+    height: 150px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #082c5c;
+}
+
+.newLetter_left h2 {
+    font-size: 40px;
+    font-weight: 800;
+    color: whitesmoke;
+}
+
+.newLetter_left span {
+    font-size: 20px;
+    font-weight: 600;
+    color: whitesmoke;
+}
+
+.newLetter_right {
+    display: flex;
+    width: 350px;
+    align-items: center;
+    padding: 5px 20px;
+    padding-right: 0;
+    height: 60px;
+    border-radius: 30px;
+    border: 2px solid whitesmoke;
+}
+
+.newLetter_right button {
+    width: 100px;
+    padding: 10px 15px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 20px;
+    display: flex;
+    color: #082c5c;
+}
+
+.newLetter_right button:hover {
+    color: white;
+    background-color: #082c5c;
+}
+
+.input_div {
+    width: 250px;
+}
+
+.input_div input {
+    background-color: transparent;
+    border: 0px solid;
+    height: 20px;
+    width: 160px;
+    color: #CCC;
+}
+
+.input_div input:focus {
+    outline: none;
+}
+
+.footer {
+    margin-top: 25px;
+    padding-left: 80px;
+}
+
+.footer_first {
+    height: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+}
+
+.footer_logo span {
+    padding-left: 30px;
+    font-size: 22px;
+    color: #042c5c;
+    font-weight: 800;
+}
+
+.footer_right {
+    display: flex;
+    margin-left: 25px;
+    justify-content: space-between;
+}
